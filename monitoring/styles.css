@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#taskForm input, #taskForm textarea, #taskForm button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#taskList ul, #timeLogs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    font-size: 24px;
